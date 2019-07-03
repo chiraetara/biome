@@ -23,7 +23,7 @@ def callback():
     user = decoded["events"][0]['replyToken']
     userText = decoded["events"][0]['message']['text']
     #sendText(user,sendText(user,)
-        if (userText == 'สวัสดี') :
+    if (userText == 'สวัสดี') :
         sendText(user,'ไอ้เวรรร')
     elif ( userText == 'สวยจัง') :
         sendText(user,'แน่นอนอ่ะนะ')
